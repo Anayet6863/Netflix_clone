@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+
+    background-image: url(assets/Images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.main.box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.99;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 150vh;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 214px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    padding: auto;
+}
+
+.info {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 30px;
+}
+
+.a {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.b {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.c {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 10px;
+    background-color: gray;
+}
+
+.btn-eng {
+    padding: 8px 16px;
+    background-color: white;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: red;
+    padding: 8px 16px;
+    ;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-getStart {
+    background-color: red;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 3px;
+
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 10px 40px;
+    font-size: 20px;
+    border-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    color: white;
+}
+
+.section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    width: 408px;
+    height: 281px;
+    position: relative;
+    z-index: 10px;
+}
+
+.secImg img {
+    position: absolute;
+    z-index: 20px;
+    width: 369px;
+    height: 303px;
+    margin-top: 36px;
+}
+
+.secFirst {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 25px;
+
+
+}
+
+.secFirst h1 {
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.secFirst h3 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.secVideo {
+    position: absolute;
+    width: 49px;
+}
+
+.secVideo video {
+    width: 636px;
+    height: 145px;
+    margin-top: -40px;
+    z-index: 0;
+    position: absolute;
+    z-index: 20;
+    margin-left: -15px;
+    margin-bottom: 3px;
+}
+
+.space {
+    margin-top: 200px;
+
+}
+
+.section-3 {
+    display: flex;
+    justify-content: left;
+    margin-left: 175px;
+}
+
+.secFirst-3 {
+    color: white;
+}
+
+.faq-heading {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 42px;
+
+}
+
+.faqbox {
+    display: flex;
+    color: white;
+    background-color: #2d2d2d;
+    max-width: 140vh;
+    margin: 24px auto;
+    padding: 32px;
+    font-size: 24px;
+    justify-content: space-between;
+    transition: all ease-in-out 0.4s;
+}
+
+.faqbox:hover {
+    background-color: #524f4f;
+}
+
+.info input {
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 10px 40px;
+    font-size: 20px;
+    border-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    color: white;
+}
+
+.info span {
+    font-size: 25px;
+}
+
+.footer {
+    color: white;
+    margin-left: 137px;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.items a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.last-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    width: 135px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 17px;
+}
